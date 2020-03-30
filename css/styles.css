@@ -1,0 +1,107 @@
+html {
+    color: gray;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: rgb(00, 00, 00);
+    font-family: 'courier';
+    background-color: #f3dfc7;
+    font-size: 24pt;
+}
+
+body {
+    background-color: oldlace;
+}
+
+main {
+    background-color: #f3dfc7
+}
+
+body header nav{
+    text-shadow: 1px 1px darkgrey;
+    color: gray;   
+}
+
+ol, lo {
+    color: tan;
+}
+
+footer, ul, li{
+    color: tan;
+}
+
+.somename {
+    color: black;
+
+}
+
+.bodyname1 {
+    font-family: 'courier';
+
+}
+
+/*
+@media screen and (max-wdith: 50rem) {
+
+    header,
+    main,
+    footer,
+    form p {
+        flexdirection: column;
+    }
+
+    form input,
+    texturearea {
+        margin: 2px 0;
+    }
+
+    .hero-text {
+        flex: none;
+    }
+
+    form select {
+        margin: 0;
+    }
+}
+*/
+
+h1,
+h2 {
+    color: antiquewhite;
+}
+
+body {
+    color: darkgrey;
+}
+
+a:hover {
+    color: #aaaa
+}
+
+#newtextid {
+    font-size: 18pt;
+    border: 2px solid gray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 35px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bordernew {
+    border: 2px solid gray;
+    padding: 5px 35px 5px 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/1633459.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
